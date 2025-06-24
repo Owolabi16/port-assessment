@@ -23,5 +23,5 @@ jobs:
                 port_base_url: "https://api.port.io"
                 config: |
                     jira_host: "https://edealiu142.atlassian.net"
-                    atlassian_user_email: ${{ secrets.atlassianUserEmail }}
-                    atlassian_user_token: ${{ secrets.atlassianUserToken }}
+                    atlassian_user_email: ${{ secrets.ATLASSIANUSEREMAIL }}
+                    atlassian_user_token: ${{ secrets.ATLASSIANUSERTOKEN }}
